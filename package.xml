@@ -4,5 +4,9 @@
         <members>Test001__c.namet01__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Test001__c-Test001 Layout</members>
+        <name>Layout</name>
+    </types>
     <version>52.0</version>
 </Package>
