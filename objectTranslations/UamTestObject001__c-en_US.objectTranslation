@@ -9,30 +9,30 @@
         <value>UamTestObject001s</value>
     </caseValues>
     <fields>
-        <label><!-- Account --></label>
+        <label></label>
         <name>Account__c</name>
-        <relationshipLabel><!-- UamTestObject001s --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- TPickList01 --></label>
+        <label></label>
         <name>TPickList01__c</name>
         <picklistValues>
             <masterLabel>v1</masterLabel>
-            <translation><!-- v1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>v2</masterLabel>
-            <translation><!-- v2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>v3</masterLabel>
-            <translation><!-- v3 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- UamTestObject001F --></label>
+        <label></label>
         <name>UamTestObject001F__c</name>
-        <relationshipLabel><!-- UamTestObject001s --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
