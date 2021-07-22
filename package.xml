@@ -4,9 +4,5 @@
         <members>Test_Co_Supervisor</members>
         <name>Profile</name>
     </types>
-    <types>
-        <members>Test_Co_Supervisor_profilePasswordPolicy1626925965930</members>
-        <name>ProfilePasswordPolicy</name>
-    </types>
     <version>52.0</version>
 </Package>
