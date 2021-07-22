@@ -40920,10 +40920,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
-        <recordType>Account.Business_Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
         <recordType>Account.vlocity_cmt__MobilePhoneAccount</recordType>
     </layoutAssignments>
     <layoutAssignments>
