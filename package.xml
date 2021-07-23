@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CFM2</members>
-        <members>Test_Role_01</members>
-        <members>Test_Role_02</members>
+        <members>Consumer_Group</members>
         <name>Role</name>
     </types>
     <version>52.0</version>
