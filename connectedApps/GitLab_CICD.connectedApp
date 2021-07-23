@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ihuang@salesforce.com</contactEmail>
+    <label>GitLab CI/CD</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIFzzCCA7cCFCi2Q6Izr+AN5hn04r6nUViLHhPxMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQGEwJVUzELMAkGA1UECAwCQ0ExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xGjAYBgNVBAoMEURyZWFtSG91c2UgUmVhbHR5MRIwEAYDVQQLDAlUcmFpbGhlYWQxGTAXBgNVBAMMEGRyZWFtaG91c2VhcHAuaW8xJDAiBgkqhkiG9w0BCQEWFWlodWFuZ0BzYWxlc2ZvcmNlLmNvbTAeFw0yMDA4MTcwMDQ2NTNaFw0yMTA4MTcwMDQ2NTNaMIGjMQswCQYDVQQGEwJVUzELMAkGA1UECAwCQ0ExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xGjAYBgNVBAoMEURyZWFtSG91c2UgUmVhbHR5MRIwEAYDVQQLDAlUcmFpbGhlYWQxGTAXBgNVBAMMEGRyZWFtaG91c2VhcHAuaW8xJDAiBgkqhkiG9w0BCQEWFWlodWFuZ0BzYWxlc2ZvcmNlLmNvbTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMBlpP5p3Qwd3cE6XGKO4BqjcuAOcuAsu9At5rggr9Ys0yk+I04TY/+XT/9l9CnWbxTspY5UlUyBFk/pEEJFaWOhovth/RAxDr5L68gK35QH4Gs5/QqQHxN8C5ufOXby+SdEdoW2lH0YkfyUZiwDb3N7IUXj4dXMohwKmjOZxLdsaivzRJLwBWMTr+FtHXZltTFj6i7o20JntUbEemBuybpGBRoUGe67+72AS6SdSb04DqPknHBCEHb93hGxcOWrySUkfF8CqemYwS0xGXeC4lG5wF21qmsYFNlIit5ZJEWpR+vuwvVwdCFHPDgMxgA52jKxSYRJDlm8Cu7SKConUAGTH+hsASuisG6HYnYQcYN6Sd+56/0SZyZEAKo7DKMs1xZKMjdAyR0iiepseR9JbCXqk6jr9Sriwb2ipLLUZCHqmrscsbgza0SZsKEseQk3FUhCLRaVL1UcDQ2VRPNHci5mDAPDPMXVQYZSM3MfeFfhbdpuj1QsMiHQ1ksdiQwjp2M8X52ncj5x4wxUQ/P6XUKG46Tilr1//h48kfrM5XOjqDf28zZ/v0ZnUCMrCa71MNuBLcxORZQ5GR05Sxhzv5dnjlCGkXGJTtHXypLKey5b6B5WPLS4fQca3vYTHTgsatW+XhPa/jMrBCT2B+mVZ5tBaG42/CDZFrX4xn18GhpZAgMBAAEwDQYJKoZIhvcNAQELBQADggIBAEkcUKoDC/O+IhqJXG+sl+l0r5GNlblIgSQEDU6SwacxML3HLuRdTUHfC0+Y0NX76DxylXSNTzWVTfHNM3BU3ZfFp+m9x73Q7htyJwLsy+LcfSa0vZMBWNhBy2F2bmTrAfmUf4T+hpTpRfbShyeg3Gd911pXl7fCEB/p2D+Q3fcd8ehN4Ky2w0FZ6hpWklgsmXaZvfeHpT45e4vxJ96CzzUPgO8L47kAsNPsvm0uxVL6eQJvFspZdpz6YlOi8dVZXdRApybsI0bxqG2DVRQzoeWWVSlk0xys5rO/RNZFfMq2j770PC69p7crSzPtKAG6p/lK6c6Hx0fJlW5hToYGs9RzpcrxtBHFNrB741R9q5LvUDPZvarihVVvesUQNRU177XmlPdKhUsqJUzjoNeg/5iURXMS76D6YTAUYEaKohpwA0ghty6Xko/BbEBHnyRrmF3L0YsTaDps/AuhegKFsWw65VhHo+Rz3r5l03JQmt7zfQK85REDwVfWgIObXNI3CAGbTpurLakaAFyf7r0ihZ4aekKMk4+h+44ZpSSWOC2HtSXPj26ciSgNvnZ3/wPL5BHbS4ZIiHV8f5UpNGA+Nd7euRZ75DOT5WGh3X4ns0FjWF9cB/mqEHyjz7Eq/1FYwm4Jz5essHGi93ldOWxHV69eTnctN/grxzXhocNyxxV9</certificate>
+        <consumerKey>3MVG9pcaEGrGRoTIJAfV6nezKhBUHfInw2ZF8rgh6wILcbnR6wywkVLjvAlJT2RWOPdR8ybaWiRkqkyo35WSx</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
