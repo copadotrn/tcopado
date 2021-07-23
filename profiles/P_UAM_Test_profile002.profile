@@ -40952,10 +40952,6 @@
         <layout>Business_Model_Hierarchy__c-Business Model Hierarchy Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Business_Model_Hierarchy__c-Business Model Hierarchy Layout</layout>
-        <recordType>Business_Model_Hierarchy__c.Business_Purpose</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
