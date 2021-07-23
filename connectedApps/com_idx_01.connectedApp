@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>thomas.kc.law@pccw.com</contactEmail>
+    <label>com idx 01</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1919/OauthRedirect</callbackUrl>
+        <certificate>MIIDdzCCAl8CFF8OzmYV9jx63Tl2E8LY9rLp7FFoMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAkhLMQswCQYDVQQIDAJISzELMAkGA1UEBwwCSEsxDDAKBgNVBAoMA0hLVDEMMAoGA1UECwwDSEtUMQwwCgYDVQQDDANIS1QxJTAjBgkqhkiG9w0BCQEWFnRob21hcy5rYy5sYXdAcGNjdy5jb20wHhcNMjEwMzA1MDc0MTM0WhcNMjIwMzA1MDc0MTM0WjB4MQswCQYDVQQGEwJISzELMAkGA1UECAwCSEsxCzAJBgNVBAcMAkhLMQwwCgYDVQQKDANIS1QxDDAKBgNVBAsMA0hLVDEMMAoGA1UEAwwDSEtUMSUwIwYJKoZIhvcNAQkBFhZ0aG9tYXMua2MubGF3QHBjY3cuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu7ZUOFq1GojY/yNfQc7h4pz3yFqnVxYZPaaNw5GRa8G0LNK+Eb1FE54s27pEkq0vOIzV2ZVbXxv5vZXyhLEVgJt58SadIeW0GcvO7zIJb0WAGqV/aoKcFktZA7mOeXG+rqAbLTU4hAJLWi9EmabIZnTr0Cz2EKMypJhYwF5ZqzwoJwbnBsVj0vfcZZR2+jxRLXpt9NH/HD1JA/uymWosjP0TL81Q+bavL0FeZjbObqls9ggGN3r9F6JRCMzNSSZnethNIM39X+cgjEV9cLAkNYUvkmzZwx57ufn/XO66vOW+iEtyoos8mKuE1oNFhHKV2dOsOxFRt6FGUlQ+F51BCwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBb0YNQFbu6HrougJqOIypMktnr5wVjDmmOZ3cr+qAF4quyVs9m3Lqa7fWKm6LZ92Ub6n92fkU3KiUsxjDrUOpIgakOyfAxpcGYE0RQoU9p/KI477BeZmK8HO9yILdDZEvRE7/LBPSZjLNh6On1O+GWPOqY1gSiWghBhGswH50UPBbnMr6ueFtLRv+5yJZHsz2nLrjvyopl+dmrK3xqDwlumgrNHmYRLe2wPumguFsG2v7FKb6ld5izmikuZQf459CgSlueORWIEPnCJSz2SGk6A22vzxedY81aXayiEFYq/Jo7HMXHX0Tt0/GkkYaMqwvNJsxLerh6uZCtU+YV2Dft</certificate>
+        <consumerKey>3MVG9pcaEGrGRoTIJAfV6nezKhKcLj9vjNu4Qnhywn3XGmDkRpB3se8Rr3iiJ9dDVrSWsqhH7e18g0IfLxGvc</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Test_Profile_001</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>Mulesoft Integration User</profileName>
+</ConnectedApp>

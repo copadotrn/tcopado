@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>vlocity_cmt__OrderEventLogEntry__b</members>
-        <name>CustomObject</name>
+        <members>CPQIntegrationUserApp</members>
+        <members>Connected_App_1234</members>
+        <members>Coupon_Management_Prototype_Connected_App</members>
+        <members>DEVHUB_txontccwju0eefym2rhr</members>
+        <members>GitLab_CICD</members>
+        <members>MuleSoft_integration</members>
+        <members>Mulesoft_JWT</members>
+        <members>com_eda_demo</members>
+        <members>com_idx_01</members>
+        <members>com_perf</members>
+        <members>johnno_token</members>
+        <members>mule_eda_demo</members>
+        <members>mulesoftinbound</members>
+        <members>test</members>
+        <members>testConnectedApp</members>
+        <name>ConnectedApp</name>
     </types>
     <version>52.0</version>
 </Package>
