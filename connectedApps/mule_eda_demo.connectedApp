@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ken.chang@mulesoft.com</contactEmail>
+    <label>mule eda demo</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:8081/callback</callbackUrl>
+        <certificate>MIIEcjCCA1qgAwIBAgIOAXcVw7l2AAAAAB8RUqswDQYJKoZIhvcNAQELBQAwfjEWMBQGA1UEAwwNbXVsZV9lZGFfZGVtbzEYMBYGA1UECwwPMDBEMXMwMDAwMDA4b0ZFMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTAeFw0yMTAxMTgxMzUxMjRaFw0yMjAxMTgxMjAwMDBaMH4xFjAUBgNVBAMMDW11bGVfZWRhX2RlbW8xGDAWBgNVBAsMDzAwRDFzMDAwMDAwOG9GRTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCySXW0jOtBqZy50vli+8T2o2fvjGz9TKfZZW4b7cnGLaefuqR2uF5stoHczPjy9/ssCPLXrlaYZMqAjypVvSfSrT2le9WymyYzW8wzRanURtra859VHISQJHMtbpHHuYF3l3xANUZ2KG1wH94CKa4CS35YkbxJDQiV9+0Dd1j4IntjBd6A6SppxP9AfIXtLQPk+DdU7ciECr1inLp3z2f+4QymS9gEHSEDjJ3wjz6xuuWB+zJAeRrI5Drbli1RjMPlKsdc/4dV6nx0IxWKJyY+MXiO2YhYyE3/ICncjpgz0KdeZp47h2z8yghRZleWhKCagonruHJdA+XLq73NZ+LlAgMBAAGjge0wgeowHQYDVR0OBBYEFGJ8vWMOljiejoe0SIGFtw05ZfL6MA8GA1UdEwEB/wQFMAMBAf8wgbcGA1UdIwSBrzCBrIAUYny9Yw6WOJ6Oh7RIgYW3DTll8vqhgYOkgYAwfjEWMBQGA1UEAwwNbXVsZV9lZGFfZGVtbzEYMBYGA1UECwwPMDBEMXMwMDAwMDA4b0ZFMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAXcVw7l2AAAAAB8RUqswDQYJKoZIhvcNAQELBQADggEBAHEa7EjMrTsTyzFldeGiCzYBlc8Im0Pe+XeRSSsb0G5CNe/7MJtlzBS21FLjlgOBPMNnNIq/V+SNp88P0L/EbQinAEIM5W2f1jLvfE4LNl6rgasIHm+zQg9TMqWFIGhypkr6n5XPB4QvxBaCfiYzGRchcigSHtd1+aCHXi064R67NvnZYNJBQmtHF+515xvtsrUZKcRXkBtwWZ0embd431XnW61eXC1a7EaZyZfBJJ1fR0cp/F2/+oRbuASZ6ha++2CqYmTrdEDmM+EEHAjLhmieQysIZEhOf/mdi4lqLRis4e8rX87pLo/Yp2++f6FLMaTQk2Yst2Yp8FbCriIPkGg=</certificate>
+        <consumerKey>3MVG9pcaEGrGRoTIJAfV6nezKhP4zZkaiZiTuuL6lkNK8KFJ54VK.yLZHVtuV9F6uhzHGPAtvI_KO8xfxN_Zl</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Test_Profile_001</profileName>
+    <profileName>Jacky_Test_profile</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>Mulesoft Integration User</profileName>
+</ConnectedApp>
