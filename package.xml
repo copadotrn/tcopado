@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>MuleSoft_integration</members>
-        <members>Mulesoft_JWT</members>
-        <name>ConnectedApp</name>
-    </types>
-    <types>
         <members>vlocity_cmt__OrderEventLogEntry__b</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Jacky_test_Custom_set</members>
-        <name>CustomPermission</name>
+        <members>Shweta_Copado</members>
+        <name>Profile</name>
     </types>
     <version>52.0</version>
 </Package>
