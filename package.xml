@@ -4,5 +4,9 @@
         <members>Hong_Kong_Telecommunications_HKT_Limited</members>
         <name>Role</name>
     </types>
+    <types>
+        <members>HKT_Shweta</members>
+        <name>Profile</name>
+    </types>
     <version>52.0</version>
 </Package>
