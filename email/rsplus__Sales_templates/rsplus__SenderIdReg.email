@@ -1,0 +1,5 @@
+Details about New Sender-Id below.
+
+Sender-Id Name: {!rsplus__Sender_Id_Registration__c.Name}
+Requested Organization Name: {!Organization.Name}
+Requested User : {!User.Name} | {!User.Email}
