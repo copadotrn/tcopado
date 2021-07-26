@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Business Model Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Business Model Configurations</value>
+    </caseValues>
+    <fields>
+        <help><!-- Free input, max 255 characters. --></help>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Area__c</name>
+        <picklistValues>
+            <masterLabel>Hong Kong Island 香港</masterLabel>
+            <translation><!-- Hong Kong Island 香港 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Island Districts 離島</masterLabel>
+            <translation><!-- Island Districts 離島 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kowloon 九龍</masterLabel>
+            <translation><!-- Kowloon 九龍 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Territories 新界</masterLabel>
+            <translation><!-- New Territories 新界 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Brand Logo --></label>
+        <name>Brand_Logo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel BU --></label>
+        <name>Channel_BU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Brand Code --></label>
+        <name>Channel_Brand_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Brand --></label>
+        <name>Channel_Brand__c</name>
+        <relationshipLabel><!-- Business Model Configurations (Channel Brand) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel CCC Code --></label>
+        <name>Channel_CCC_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel CCC --></label>
+        <name>Channel_CCC__c</name>
+        <relationshipLabel><!-- Business Model Configurations (Channel CCC) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel Code --></label>
+        <name>Channel_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Facilities --></label>
+        <name>Channel_Facilities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Group --></label>
+        <name>Channel_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel LOB Code --></label>
+        <name>Channel_LOB_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel LOB --></label>
+        <name>Channel_LOB__c</name>
+        <relationshipLabel><!-- Business Model Configurations (Channel LOB) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel Logo --></label>
+        <name>Channel_Logo__c</name>
+    </fields>
+    <fields>
+        <help><!-- How is customer served in this channel? --></help>
+        <label><!-- Channel Serving Method --></label>
+        <name>Channel_Serving_Method__c</name>
+        <picklistValues>
+            <masterLabel>Assisted-non-face</masterLabel>
+            <translation><!-- Assisted-non-face --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assisted-on-face</masterLabel>
+            <translation><!-- Assisted-on-face --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-served</masterLabel>
+            <translation><!-- Self-served --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Channel Size --></label>
+        <name>Channel_Size__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Channel Team --></label>
+        <name>Channel_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Type --></label>
+        <name>Channel_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cluster --></label>
+        <name>Cluster__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealer Code --></label>
+        <name>Dealer_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel (Delivery) Checkbox --></label>
+        <name>Distribution_Channel_Delivery_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel (WH) Checkbox --></label>
+        <name>Distribution_Channel_WH_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- District Description --></label>
+        <name>District_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- District --></label>
+        <name>District__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>Effective_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>Effective_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Flag --></label>
+        <name>Enable_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guest Customer Account --></label>
+        <name>Guest_Customer_Account__c</name>
+        <relationshipLabel><!-- Account (BMC) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IT Asset Number --></label>
+        <name>IT_Asset_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPPID --></label>
+        <name>OPPID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OU Nature --></label>
+        <name>OU_Nature__c</name>
+        <picklistValues>
+            <masterLabel>BU</masterLabel>
+            <translation><!-- BU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Center Sales</masterLabel>
+            <translation><!-- Call Center Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Center Service</masterLabel>
+            <translation><!-- Call Center Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Sales</masterLabel>
+            <translation><!-- Direct Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Sales Support</masterLabel>
+            <translation><!-- Non-Sales Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIP</masterLabel>
+            <translation><!-- VIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OU Type --></label>
+        <name>OU_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Unit</masterLabel>
+            <translation><!-- Business Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel</masterLabel>
+            <translation><!-- Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Group</masterLabel>
+            <translation><!-- Channel Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Team</masterLabel>
+            <translation><!-- Channel Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Type</masterLabel>
+            <translation><!-- Channel Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cluster</masterLabel>
+            <translation><!-- Cluster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team Group</masterLabel>
+            <translation><!-- Team Group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Parent Flag --></label>
+        <name>Parent_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>Parent__c</name>
+        <relationshipLabel><!-- Business Model Configurations (Parent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Channel Checkbox --></label>
+        <name>Payment_Channel_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Channel Code --></label>
+        <name>Payment_Channel_Code_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Group --></label>
+        <name>Payment_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick Up Code --></label>
+        <name>Pick_Up_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick Up --></label>
+        <name>Pick_Up__c</name>
+        <relationshipLabel><!-- Business Model Configurations (Pick Up) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference Id --></label>
+        <name>Reference_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel Checkbox --></label>
+        <name>Sales_Channel_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel Code --></label>
+        <name>Sales_Channel_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel Type --></label>
+        <name>Sales_Channel_Type__c</name>
+        <picklistValues>
+            <masterLabel>CCS</masterLabel>
+            <translation><!-- CCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shop</masterLabel>
+            <translation><!-- Shop --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel --></label>
+        <name>Sales_Channel__c</name>
+        <relationshipLabel><!-- Business Model Configurations (Sales Channel) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Channel Checkbox --></label>
+        <name>Service_Channel_Checkbox__c</name>
+    </fields>
+    <fields>
+        <help><!-- Free input, max 255 characters. --></help>
+        <label><!-- Service Hours --></label>
+        <name>Service_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Dealer Code --></label>
+        <name>Sub_Dealer_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Team Head --></label>
+        <name>Sub_Team_Head__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Group --></label>
+        <name>Team_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Head --></label>
+        <name>Team_Head__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telephone --></label>
+        <name>Telephone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warehouse List --></label>
+        <name>Warehouse_List__c</name>
+        <picklistValues>
+            <masterLabel>CH_WH_C005</masterLabel>
+            <translation><!-- CH_WH_C005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH_WH_W003</masterLabel>
+            <translation><!-- CH_WH_W003 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Brand Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CCC Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Channel Layout</layout>
+        <sections>
+            <label><!-- Channel Details --></label>
+            <section>Channel Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Digital Channel Details --></label>
+            <section>Digital Channel Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Channel Details --></label>
+            <section>Sales Channel Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Default Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sales Channel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment --></label>
+            <section>Payment</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Master List of Brand --></description>
+        <label><!-- Brand --></label>
+        <name>Brand</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Org Unit=Business Unit Of the Org Hierarchy --></description>
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cost Center Code --></description>
+        <label><!-- CCC --></label>
+        <name>CCC</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Org Unit=Channel Of the Org Hierarchy --></description>
+        <label><!-- Channel --></label>
+        <name>Channel</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Org Unit=Channel Group Of the Org Hierarchy --></description>
+        <label><!-- Channel Group --></label>
+        <name>Channel_Group</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Org Unit=Channel Team Of the Org Hierarchy --></description>
+        <label><!-- Channel Team --></label>
+        <name>Channel_Team</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Org Unit=Channel Type Of the Org Hierarchy --></description>
+        <label><!-- Channel Type --></label>
+        <name>Channel_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Org Unit=Cluster Of the Org Hierarchy --></description>
+        <label><!-- Cluster --></label>
+        <name>Cluster</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Master List of LOB --></description>
+        <label><!-- LOB --></label>
+        <name>LOB</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Actual Name of each node in the Organization Hierarchy. --></description>
+        <label><!-- Org Unit --></label>
+        <name>Org_Unit</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Hong Kong address region district map --></description>
+        <label><!-- Region District Map --></label>
+        <name>Region_District_Map</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Master List of Sales Channel used in Channel --></description>
+        <label><!-- Sales Channel --></label>
+        <name>Sales_Channel</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Org Unit=Team Group Of the Org Hierarchy --></description>
+        <label><!-- Team Group --></label>
+        <name>Team_Group</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- List of Warehouse --></description>
+        <label><!-- Warehouse --></label>
+        <name>Warehouse</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

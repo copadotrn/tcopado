@@ -1,8 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>UamTestObject002__c</members>
+        <members>Business_Model_Hierarchy__c.Custom_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c.Business_Model_Code__c</members>
+        <members>Business_Model_Hierarchy__c.Business_Model_Configuration__c</members>
+        <members>Business_Model_Hierarchy__c.Business_Model_Name__c</members>
+        <members>Business_Model_Hierarchy__c.Business_Purpose__c</members>
+        <members>Business_Model_Hierarchy__c.Business_Unit_Code__c</members>
+        <members>Business_Model_Hierarchy__c.Business_Unit__c</members>
+        <members>Business_Model_Hierarchy__c.LOB_Code__c</members>
+        <members>Business_Model_Hierarchy__c.LOB__c</members>
+        <members>Business_Model_Hierarchy__c.Parent_Business_Model_Code__c</members>
+        <members>Business_Model_Hierarchy__c.Parent_Business_Model_Configuration__c</members>
+        <members>Business_Model_Hierarchy__c.Parent_Business_Model_Name__c</members>
+        <members>Business_Model_Hierarchy__c.Product_Group__c</members>
+        <members>Business_Model_Hierarchy__c.Sales_Channel_Code__c</members>
+        <members>Business_Model_Hierarchy__c.Sales_Channel__c</members>
+        <members>Business_Model_Hierarchy__c.Status__c</members>
+        <members>Business_Model_Hierarchy__c.Warehouse_Code__c</members>
+        <members>Business_Model_Hierarchy__c.Warehouse__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c-Business Model Hierarchy Layout</members>
+        <members>Business_Model_Hierarchy__c-Product Group Mapping Layout</members>
+        <members>Business_Model_Hierarchy__c-Warehouse Mapping</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c.All</members>
+        <members>Business_Model_Hierarchy__c.All1</members>
+        <members>Business_Model_Hierarchy__c.All_Func_Hier</members>
+        <members>Business_Model_Hierarchy__c.All_PG</members>
+        <members>Business_Model_Hierarchy__c.All_WH</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c.Business_Purpose</members>
+        <members>Business_Model_Hierarchy__c.Public_Group_Mapping</members>
+        <members>Business_Model_Hierarchy__c.Warehouse_Mapping</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>Business_Model_Hierarchy__c</members>
+        <name>TopicsForObjects</name>
     </types>
     <version>52.0</version>
 </Package>
