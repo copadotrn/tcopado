@@ -4,5 +4,9 @@
         <members>vlocity_cmt__OrderEventLogEntry__b</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>HKT_Shweta</members>
+        <name>Profile</name>
+    </types>
     <version>52.0</version>
 </Package>
