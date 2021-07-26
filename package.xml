@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Hong_Kong_Telecommunications_HKT_Limited</members>
+        <members>Test_Role_02</members>
+        <members>Test_Role_C_01</members>
         <name>Role</name>
     </types>
     <types>
