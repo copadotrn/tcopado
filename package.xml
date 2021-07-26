@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>vlocity_cmt__OrderEventLogEntry__b</members>
-        <name>CustomObject</name>
+        <members>Hong_Kong_Telecommunications_HKT_Limited</members>
+        <name>Role</name>
     </types>
     <version>52.0</version>
 </Package>
