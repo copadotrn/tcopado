@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Business_Model_Configuration__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Business Model Configuration lookup relationship</description>
+        <externalId>false</externalId>
+        <label>Business Model Configuration</label>
+        <referenceTo>Business_Model_Configuration__c</referenceTo>
+        <relationshipLabel>Business Model Hierarchies (Business Model)</relationshipLabel>
+        <relationshipName>Business_Model_Hierarchies</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Business_Model_Configuration__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Parent Business Model Configuration lookup relationship</description>
+        <externalId>false</externalId>
+        <label>Parent Business Model Configuration</label>
+        <referenceTo>Business_Model_Configuration__c</referenceTo>
+        <relationshipLabel>Business Model Hierarchies (Parent Business Model)</relationshipLabel>
+        <relationshipName>Parent_Business_Model_Hierarchies</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>
