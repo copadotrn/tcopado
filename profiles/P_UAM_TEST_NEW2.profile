@@ -18614,11 +18614,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Coupon_Notification_Preference__c.Coupon_Item__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Coupon_Notification_Preference__c.Days_before_expiry__c</field>
         <readable>false</readable>
     </fieldPermissions>
