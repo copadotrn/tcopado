@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Application Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Application Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actioned --></label>
+        <name>Actioned__c</name>
+    </fields>
+    <fields>
+        <help><!-- The age in days of the record. --></help>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callout End Point --></label>
+        <name>Callout_End_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callout Request Body --></label>
+        <name>Callout_Request_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callout Response Body --></label>
+        <name>Callout_Response_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callout Status Code --></label>
+        <name>Callout_Status_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- The log message (either an error message or info message). --></help>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+        <picklistValues>
+            <masterLabel>Batch Apex</masterLabel>
+            <translation><!-- Batch Apex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class</masterLabel>
+            <translation><!-- Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation><!-- Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Component</masterLabel>
+            <translation><!-- Lightning Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trigger</masterLabel>
+            <translation><!-- Trigger --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The record id of the related object that initiated the log record. --></help>
+        <label><!-- Reference Id --></label>
+        <name>Reference_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The salesforce sObject for the Reference Id. --></help>
+        <label><!-- Reference Information --></label>
+        <name>Reference_Information__c</name>
+    </fields>
+    <fields>
+        <help><!-- The source function name of the error (e.g. getContactInformation). --></help>
+        <label><!-- Source Function --></label>
+        <name>Source_Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <help><!-- The original stack trace for exceptions. --></help>
+        <label><!-- Stack Trace --></label>
+        <name>Stack_Trace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timer --></label>
+        <name>Timer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the time of the transaction. --></help>
+        <label><!-- Timestamp --></label>
+        <name>Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Callout</masterLabel>
+            <translation><!-- Callout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debug</masterLabel>
+            <translation><!-- Debug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info</masterLabel>
+            <translation><!-- Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation><!-- Warning --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Application Log Layout</layout>
+        <sections>
+            <label><!-- Callout --></label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Application test Layout</layout>
+        <sections>
+            <label><!-- Callout --></label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
