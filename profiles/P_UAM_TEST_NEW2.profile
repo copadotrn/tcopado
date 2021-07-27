@@ -18774,11 +18774,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>HKT_Master_Data__c.Code__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>HKT_Master_Data__c.Dealer_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
