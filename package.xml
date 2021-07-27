@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>vlocity_cmt__OrderEventLogEntry__b</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>HKT_Shweta</members>
-        <name>Profile</name>
+        <members>Account-Account Test Layout</members>
+        <members>Application_Log__c-Application test Layout</members>
+        <name>Layout</name>
     </types>
     <version>52.0</version>
 </Package>
