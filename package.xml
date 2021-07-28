@@ -4,5 +4,22 @@
         <members>P_UAM_TEST_NEW</members>
         <name>Profile</name>
     </types>
+    <types>
+        <members>Business_Model_Configuration__c.Brand</members>
+        <members>Business_Model_Configuration__c.Business_Unit</members>
+        <members>Business_Model_Configuration__c.CCC</members>
+        <members>Business_Model_Configuration__c.Channel</members>
+        <members>Business_Model_Configuration__c.Channel_Group</members>
+        <members>Business_Model_Configuration__c.Channel_Team</members>
+        <members>Business_Model_Configuration__c.Channel_Type</members>
+        <members>Business_Model_Configuration__c.Cluster</members>
+        <members>Business_Model_Configuration__c.LOB</members>
+        <members>Business_Model_Configuration__c.Org_Unit</members>
+        <members>Business_Model_Configuration__c.Region_District_Map</members>
+        <members>Business_Model_Configuration__c.Sales_Channel</members>
+        <members>Business_Model_Configuration__c.Team_Group</members>
+        <members>Business_Model_Configuration__c.Warehouse</members>
+        <name>RecordType</name>
+    </types>
     <version>52.0</version>
 </Package>
