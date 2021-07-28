@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>P_UAM_TEST_NEW2</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>P_UAM_TEST_NEW2_profilePasswordPolicy1627374936474</members>
-        <name>ProfilePasswordPolicy</name>
+        <members>Test_VS_PAGE</members>
+        <name>ApexPage</name>
     </types>
     <version>52.0</version>
 </Package>
