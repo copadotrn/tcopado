@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>Brand</fullName>
+        <active>true</active>
+        <description>Master List of Brand</description>
+        <label>Brand</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Business_Unit</fullName>
+        <active>true</active>
+        <description>Org Unit=Business Unit Of the Org Hierarchy</description>
+        <label>Business Unit</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CCC</fullName>
+        <active>true</active>
+        <description>Cost Center Code</description>
+        <label>CCC</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Channel</fullName>
+        <active>true</active>
+        <description>Org Unit=Channel Of the Org Hierarchy</description>
+        <label>Channel</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Channel_Group</fullName>
+        <active>true</active>
+        <description>Org Unit=Channel Group Of the Org Hierarchy</description>
+        <label>Channel Group</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Channel_Team</fullName>
+        <active>true</active>
+        <description>Org Unit=Channel Team Of the Org Hierarchy</description>
+        <label>Channel Team</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Channel_Type</fullName>
+        <active>true</active>
+        <description>Org Unit=Channel Type Of the Org Hierarchy</description>
+        <label>Channel Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Cluster</fullName>
+        <active>true</active>
+        <description>Org Unit=Cluster Of the Org Hierarchy</description>
+        <label>Cluster</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LOB</fullName>
+        <active>true</active>
+        <description>Master List of LOB</description>
+        <label>LOB</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Org_Unit</fullName>
+        <active>true</active>
+        <description>Actual Name of each node in the Organization Hierarchy.</description>
+        <label>Org Unit</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Region_District_Map</fullName>
+        <active>true</active>
+        <description>Hong Kong address region district map</description>
+        <label>Region District Map</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sales_Channel</fullName>
+        <active>true</active>
+        <description>Master List of Sales Channel used in Channel</description>
+        <label>Sales Channel</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Team_Group</fullName>
+        <active>true</active>
+        <description>Org Unit=Team Group Of the Org Hierarchy</description>
+        <label>Team Group</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Warehouse</fullName>
+        <active>true</active>
+        <description>List of Warehouse</description>
+        <label>Warehouse</label>
+    </recordTypes>
+</CustomObject>
