@@ -26,7 +26,6 @@
         <members>Business_Model_Configuration__c.Channel__c</members>
         <members>Business_Model_Configuration__c.Cluster__c</members>
         <members>Business_Model_Configuration__c.Code__c</members>
-        <members>Business_Model_Configuration__c.CurrencyIsoCode</members>
         <members>Business_Model_Configuration__c.Dealer_Code__c</members>
         <members>Business_Model_Configuration__c.Distribution_Channel_Delivery_Checkbox__c</members>
         <members>Business_Model_Configuration__c.Distribution_Channel_WH_Checkbox__c</members>
@@ -67,10 +66,8 @@
         <members>Business_Model_Hierarchy__c.Business_Purpose__c</members>
         <members>Business_Model_Hierarchy__c.Business_Unit_Code__c</members>
         <members>Business_Model_Hierarchy__c.Business_Unit__c</members>
-        <members>Business_Model_Hierarchy__c.CurrencyIsoCode</members>
         <members>Business_Model_Hierarchy__c.LOB_Code__c</members>
         <members>Business_Model_Hierarchy__c.LOB__c</members>
-        <members>Business_Model_Hierarchy__c.LastActivityDate</members>
         <members>Business_Model_Hierarchy__c.Parent_Business_Model_Code__c</members>
         <members>Business_Model_Hierarchy__c.Parent_Business_Model_Configuration__c</members>
         <members>Business_Model_Hierarchy__c.Parent_Business_Model_Name__c</members>
