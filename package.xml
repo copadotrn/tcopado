@@ -4,9 +4,5 @@
         <members>P_UAM_Test_Permissionset001</members>
         <name>PermissionSet</name>
     </types>
-    <types>
-        <members>Test_permission_set_group001</members>
-        <name>PermissionSetGroup</name>
-    </types>
     <version>52.0</version>
 </Package>
