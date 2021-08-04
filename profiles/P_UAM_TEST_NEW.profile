@@ -40769,10 +40769,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Business_Model_Configuration__c-Default Layout</layout>
-        <recordType>Business_Model_Configuration__c.Cluster</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Business_Model_Configuration__c-Default Layout</layout>
         <recordType>Business_Model_Configuration__c.LOB</recordType>
     </layoutAssignments>
     <layoutAssignments>
