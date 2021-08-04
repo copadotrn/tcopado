@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>P_UAM_TEST_NEW</members>
-        <name>Profile</name>
+        <members>Business_Model_Configuration__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.Brand</members>
+        <members>Business_Model_Configuration__c.CCC</members>
+        <members>Business_Model_Configuration__c.LOB</members>
+        <members>Business_Model_Configuration__c.Sales_Channel</members>
+        <members>Business_Model_Configuration__c.Warehouse</members>
+        <name>RecordType</name>
     </types>
     <version>52.0</version>
 </Package>
