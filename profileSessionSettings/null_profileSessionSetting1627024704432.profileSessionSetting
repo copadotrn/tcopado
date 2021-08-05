@@ -5,6 +5,6 @@
     <profile>P_UAM_TEST_NEW</profile>
     <requiredSessionLevel>HIGH_ASSURANCE</requiredSessionLevel>
     <sessionPersistence>false</sessionPersistence>
-    <sessionTimeout>60</sessionTimeout>
+    <sessionTimeout>0</sessionTimeout>
     <sessionTimeoutWarning>false</sessionTimeoutWarning>
 </ProfileSessionSetting>
