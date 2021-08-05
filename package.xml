@@ -23,8 +23,6 @@
         <name>ProfileSessionSetting</name>
     </types>
     <types>
-        <members>Business_Model_Configuration__c.Brand</members>
-        <members>Business_Model_Configuration__c.Business_Unit</members>
         <members>Business_Model_Configuration__c.CCC</members>
         <members>Business_Model_Configuration__c.Channel</members>
         <members>Business_Model_Configuration__c.Channel_Group</members>
