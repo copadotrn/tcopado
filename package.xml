@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Business_Model_Configuration__c</members>
         <members>vlocity_cmt__OrderEventLogEntry__b</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Jacky_test_Custom_set</members>
+        <members>Test_custom_permission</members>
+        <name>CustomPermission</name>
     </types>
     <types>
         <members>P_UAM_TEST_NEW</members>
@@ -15,6 +21,23 @@
     <types>
         <members>null_profileSessionSetting1627024704432</members>
         <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.Brand</members>
+        <members>Business_Model_Configuration__c.Business_Unit</members>
+        <members>Business_Model_Configuration__c.CCC</members>
+        <members>Business_Model_Configuration__c.Channel</members>
+        <members>Business_Model_Configuration__c.Channel_Group</members>
+        <members>Business_Model_Configuration__c.Channel_Team</members>
+        <members>Business_Model_Configuration__c.Channel_Type</members>
+        <members>Business_Model_Configuration__c.Cluster</members>
+        <members>Business_Model_Configuration__c.LOB</members>
+        <members>Business_Model_Configuration__c.Org_Unit</members>
+        <members>Business_Model_Configuration__c.Region_District_Map</members>
+        <members>Business_Model_Configuration__c.Sales_Channel</members>
+        <members>Business_Model_Configuration__c.Team_Group</members>
+        <members>Business_Model_Configuration__c.Warehouse</members>
+        <name>RecordType</name>
     </types>
     <version>52.0</version>
 </Package>
