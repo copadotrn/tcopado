@@ -1,8 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test001__c.namet01__c</members>
+        <members>Business_Model_Details__c.Custom_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.Address__c</members>
+        <members>Business_Model_Configuration__c.Appt_Type__c</members>
+        <members>Business_Model_Configuration__c.Area__c</members>
+        <members>Business_Model_Configuration__c.BU_Code__c</members>
+        <members>Business_Model_Configuration__c.BU_Name__c</members>
+        <members>Business_Model_Configuration__c.Brand_Code__c</members>
+        <members>Business_Model_Configuration__c.Brand_Logo_Large__c</members>
+        <members>Business_Model_Configuration__c.Brand_Logo_Small__c</members>
+        <members>Business_Model_Configuration__c.Brand_Name__c</members>
+        <members>Business_Model_Configuration__c.CCC_Code__c</members>
+        <members>Business_Model_Configuration__c.CCC__c</members>
+        <members>Business_Model_Configuration__c.Channel_Category__c</members>
+        <members>Business_Model_Configuration__c.Channel_District_Code__c</members>
+        <members>Business_Model_Configuration__c.Channel_District__c</members>
+        <members>Business_Model_Configuration__c.Channel_LOB_Code__c</members>
+        <members>Business_Model_Configuration__c.Channel_LOB__c</members>
+        <members>Business_Model_Configuration__c.Channel_Logo__c</members>
+        <members>Business_Model_Configuration__c.Channel_Serving_Method__c</members>
+        <members>Business_Model_Configuration__c.Channel_Size__c</members>
+        <members>Business_Model_Configuration__c.Code__c</members>
+        <members>Business_Model_Configuration__c.Currency_ISO_Code__c</members>
+        <members>Business_Model_Configuration__c.Delivery_Channel_Checkbox__c</members>
+        <members>Business_Model_Configuration__c.Display_Order__c</members>
+        <members>Business_Model_Configuration__c.District_Description__c</members>
+        <members>Business_Model_Configuration__c.District__c</members>
+        <members>Business_Model_Configuration__c.EPC_Eligibility_Level__c</members>
+        <members>Business_Model_Configuration__c.Effective_End_Date__c</members>
+        <members>Business_Model_Configuration__c.Effective_Start_Date__c</members>
+        <members>Business_Model_Configuration__c.Email__c</members>
+        <members>Business_Model_Configuration__c.Enable_Flag__c</members>
+        <members>Business_Model_Configuration__c.Guest_Customer_Account__c</members>
+        <members>Business_Model_Configuration__c.IT_Asset_Number__c</members>
+        <members>Business_Model_Configuration__c.Image_Path__c</members>
+        <members>Business_Model_Configuration__c.Is_Exclusive__c</members>
+        <members>Business_Model_Configuration__c.Is_Offline_Payment__c</members>
+        <members>Business_Model_Configuration__c.Legal_Entity_Code__c</members>
+        <members>Business_Model_Configuration__c.Legal_Entity__c</members>
+        <members>Business_Model_Configuration__c.OPPID__c</members>
+        <members>Business_Model_Configuration__c.OPP_Create_Txn_Link__c</members>
+        <members>Business_Model_Configuration__c.OPP_Link__c</members>
+        <members>Business_Model_Configuration__c.OPP_Module_Code__c</members>
+        <members>Business_Model_Configuration__c.OPP_Module__c</members>
+        <members>Business_Model_Configuration__c.OPP_Retrieve_Txn_Link__c</members>
+        <members>Business_Model_Configuration__c.OPP_Timeout_Threshold__c</members>
+        <members>Business_Model_Configuration__c.OU_Nature__c</members>
+        <members>Business_Model_Configuration__c.OU_Type__c</members>
+        <members>Business_Model_Configuration__c.Org_Unit_Channel__c</members>
+        <members>Business_Model_Configuration__c.Org_Unit_Code_Channel__c</members>
+        <members>Business_Model_Configuration__c.Org_Unit_Code_LOB__c</members>
+        <members>Business_Model_Configuration__c.Org_Unit_LOB__c</members>
+        <members>Business_Model_Configuration__c.Parent_Flag__c</members>
+        <members>Business_Model_Configuration__c.Parent__c</members>
+        <members>Business_Model_Configuration__c.Payment_Channel_Checkbox__c</members>
+        <members>Business_Model_Configuration__c.Payment_Channel_Code__c</members>
+        <members>Business_Model_Configuration__c.Payment_Method_Group_Code__c</members>
+        <members>Business_Model_Configuration__c.Payment_Method_Group__c</members>
+        <members>Business_Model_Configuration__c.Payment_Method_Type__c</members>
+        <members>Business_Model_Configuration__c.Pick_Up_Code__c</members>
+        <members>Business_Model_Configuration__c.Pick_Up__c</members>
+        <members>Business_Model_Configuration__c.Purpose__c</members>
+        <members>Business_Model_Configuration__c.RecordType_Code_Key__c</members>
+        <members>Business_Model_Configuration__c.Reference_Id__c</members>
+        <members>Business_Model_Configuration__c.Sales_Channel_Checkbox__c</members>
+        <members>Business_Model_Configuration__c.Send_SMS__c</members>
+        <members>Business_Model_Configuration__c.Sender_Email__c</members>
+        <members>Business_Model_Configuration__c.Sender_SMS__c</members>
+        <members>Business_Model_Configuration__c.Service_Channel_Checkbox__c</members>
+        <members>Business_Model_Configuration__c.Service_Hour_Label_Code__c</members>
+        <members>Business_Model_Configuration__c.Service_Hour_Label_Weekday__c</members>
+        <members>Business_Model_Configuration__c.Service_Hour_Label_Weekend__c</members>
+        <members>Business_Model_Configuration__c.Service_Hour_Label__c</members>
+        <members>Business_Model_Configuration__c.Service_Hour_Weekday__c</members>
+        <members>Business_Model_Configuration__c.Service_Hour_Weekend__c</members>
+        <members>Business_Model_Configuration__c.Source_of_fund__c</members>
+        <members>Business_Model_Configuration__c.Status__c</members>
+        <members>Business_Model_Configuration__c.Stock_Channel_Checkbox__c</members>
+        <members>Business_Model_Configuration__c.Sub_Team_Head__c</members>
+        <members>Business_Model_Configuration__c.Team_Head__c</members>
+        <members>Business_Model_Configuration__c.Telephone__c</members>
+        <members>Business_Model_Configuration__c.Tender_Image__c</members>
+        <members>Business_Model_Configuration__c.Terms_and_Condition_Chi__c</members>
+        <members>Business_Model_Configuration__c.Terms_and_Conditions_Eng__c</members>
+        <members>Business_Model_Configuration__c.Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.Actual_Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.BU_LOB_Key__c</members>
+        <members>Business_Model_Details__c.BU_LOB_Team_Key__c</members>
+        <members>Business_Model_Details__c.Brand_Code__c</members>
+        <members>Business_Model_Details__c.Brand_Name__c</members>
+        <members>Business_Model_Details__c.Business_Purpose__c</members>
+        <members>Business_Model_Details__c.Business_Unit_Code__c</members>
+        <members>Business_Model_Details__c.Business_Unit__c</members>
+        <members>Business_Model_Details__c.Channel_Code__c</members>
+        <members>Business_Model_Details__c.Channel_Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.Channel__c</members>
+        <members>Business_Model_Details__c.Code__c</members>
+        <members>Business_Model_Details__c.Communication_Entity_Code__c</members>
+        <members>Business_Model_Details__c.Communication_Entity_Name__c</members>
+        <members>Business_Model_Details__c.Display_Order__c</members>
+        <members>Business_Model_Details__c.Facility_Code__c</members>
+        <members>Business_Model_Details__c.Facility__c</members>
+        <members>Business_Model_Details__c.LOB_Code__c</members>
+        <members>Business_Model_Details__c.LOB__c</members>
+        <members>Business_Model_Details__c.Legacy_LOB__c</members>
+        <members>Business_Model_Details__c.Org_Unit_Code__c</members>
+        <members>Business_Model_Details__c.Org_Unit_Name__c</members>
+        <members>Business_Model_Details__c.Org_Unit__c</members>
+        <members>Business_Model_Details__c.Parent_Org_Unit_Code__c</members>
+        <members>Business_Model_Details__c.Parent_Org_Unit_Name__c</members>
+        <members>Business_Model_Details__c.Parent_Org_Unit__c</members>
+        <members>Business_Model_Details__c.Payment_Method_Code__c</members>
+        <members>Business_Model_Details__c.Payment_Method_Group_Code__c</members>
+        <members>Business_Model_Details__c.Payment_Method_Group__c</members>
+        <members>Business_Model_Details__c.Payment_Method__c</members>
+        <members>Business_Model_Details__c.Pickup_Code__c</members>
+        <members>Business_Model_Details__c.Pickup_Name__c</members>
+        <members>Business_Model_Details__c.Public_Group__c</members>
+        <members>Business_Model_Details__c.RecordType_PublicGroup_Key__c</members>
+        <members>Business_Model_Details__c.Status__c</members>
+        <members>Business_Model_Details__c.Team_Code__c</members>
+        <members>Business_Model_Details__c.Team__c</members>
+        <members>Business_Model_Details__c.Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.Warehouse_Code__c</members>
+        <members>Business_Model_Details__c.Warehouse__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.Reference_Id__c</members>
+        <name>CustomIndex</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c</members>
+        <members>Business_Model_Details__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c</members>
+        <members>Business_Model_Details__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c-Address Area District</members>
+        <members>Business_Model_Configuration__c-Brand Layout</members>
+        <members>Business_Model_Configuration__c-CCC Layout</members>
+        <members>Business_Model_Configuration__c-Channel List Layout</members>
+        <members>Business_Model_Configuration__c-Communication Entity Layout</members>
+        <members>Business_Model_Configuration__c-Default Layout</members>
+        <members>Business_Model_Configuration__c-LOB Layout</members>
+        <members>Business_Model_Configuration__c-OPP Module Layout</members>
+        <members>Business_Model_Configuration__c-Org Unit Layout</members>
+        <members>Business_Model_Configuration__c-Payment Method Layout</members>
+        <members>Business_Model_Configuration__c-Service Hour Label Layout</members>
+        <members>Business_Model_Details__c-Business Model Details Layout</members>
+        <members>Business_Model_Details__c-Business Purpose Layout</members>
+        <members>Business_Model_Details__c-COM Fullfillment Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-COM Shop Pickup Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-Channel Facility Mapping Layout</members>
+        <members>Business_Model_Details__c-Channel Warehouse Mapping Layout</members>
+        <members>Business_Model_Details__c-Communication Entity Mapping Layout</members>
+        <members>Business_Model_Details__c-EPC Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-LOB BU Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-LOB Brand Mapping Layout</members>
+        <members>Business_Model_Details__c-LOB and Legacy LOB Mapping Layout</members>
+        <members>Business_Model_Details__c-Payment Method Group Detail Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.Address_Format</members>
+        <members>Business_Model_Configuration__c.All_BU</members>
+        <members>Business_Model_Configuration__c.All_Brand</members>
+        <members>Business_Model_Configuration__c.All_CCC</members>
+        <members>Business_Model_Configuration__c.All_Channel_Code</members>
+        <members>Business_Model_Configuration__c.All_Channel_Group</members>
+        <members>Business_Model_Configuration__c.All_Channel_Team</members>
+        <members>Business_Model_Configuration__c.All_Channel_Type</members>
+        <members>Business_Model_Configuration__c.All_Comm_Entity</members>
+        <members>Business_Model_Configuration__c.All_Facility</members>
+        <members>Business_Model_Configuration__c.All_LOB</members>
+        <members>Business_Model_Configuration__c.All_Legal_Entity</members>
+        <members>Business_Model_Configuration__c.All_Org_Unit</members>
+        <members>Business_Model_Configuration__c.All_Sales_Channel</members>
+        <members>Business_Model_Configuration__c.All_Service_Hour_Label</members>
+        <members>Business_Model_Configuration__c.All_Warehouse</members>
+        <members>Business_Model_Configuration__c.Appointment_Service_Type</members>
+        <members>Business_Model_Configuration__c.Appointment_Type</members>
+        <members>Business_Model_Configuration__c.Area_District</members>
+        <members>Business_Model_Configuration__c.Copy_of_All_BU</members>
+        <members>Business_Model_Configuration__c.Coupon_Format</members>
+        <members>Business_Model_Configuration__c.Coupon_Type</members>
+        <members>Business_Model_Configuration__c.Document_Delivery_Method</members>
+        <members>Business_Model_Configuration__c.EPC_Team</members>
+        <members>Business_Model_Configuration__c.Notification_Medium</members>
+        <members>Business_Model_Configuration__c.OPP_Module</members>
+        <members>Business_Model_Configuration__c.Obsolete_old_code</members>
+        <members>Business_Model_Configuration__c.Payment_Device_Medium</members>
+        <members>Business_Model_Configuration__c.Payment_Method</members>
+        <members>Business_Model_Configuration__c.Payment_Method_Group</members>
+        <members>Business_Model_Configuration__c.Payment_terms</members>
+        <members>Business_Model_Configuration__c.Sales_Channel</members>
+        <members>Business_Model_Configuration__c.Stock_Delivery_and_Return_Method</members>
+        <members>Business_Model_Configuration__c.Support_Document_Type</members>
+        <members>Business_Model_Details__c.All_Comm_Entity_Mapping</members>
+        <members>Business_Model_Details__c.All_Facility_Mapping</members>
+        <members>Business_Model_Details__c.All_LOB_BU_PG_Mapping</members>
+        <members>Business_Model_Details__c.All_Warehouse_Mapping</members>
+        <members>Business_Model_Details__c.COM_Fulfillment_PG_Mapping</members>
+        <members>Business_Model_Details__c.COM_Shop_Pickup_PG_Mapping</members>
+        <members>Business_Model_Details__c.EPC_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.Eligibility_Consumer_Group</members>
+        <members>Business_Model_Details__c.Eligibility_Consumer_Mobile</members>
+        <members>Business_Model_Details__c.Eligibility_Hierarchy</members>
+        <members>Business_Model_Details__c.Functional_Commercial_Mobile</members>
+        <members>Business_Model_Details__c.Functional_Consumer_Group</members>
+        <members>Business_Model_Details__c.Functional_Consumer_Mobile</members>
+        <members>Business_Model_Details__c.Functional_Hierarchy</members>
+        <members>Business_Model_Details__c.Functional_NOWTV</members>
+        <members>Business_Model_Details__c.LOB_Brand_Mapping</members>
+        <members>Business_Model_Details__c.LOB_and_Legacy_LOB_Mapping</members>
+        <members>Business_Model_Details__c.Payment_Method_Group_Detail</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.Address_Format</members>
+        <members>Business_Model_Configuration__c.Appointment_Service_Type</members>
+        <members>Business_Model_Configuration__c.Brand</members>
+        <members>Business_Model_Configuration__c.Business_Unit</members>
+        <members>Business_Model_Configuration__c.CCC</members>
+        <members>Business_Model_Configuration__c.Channel</members>
+        <members>Business_Model_Configuration__c.Channel_Group</members>
+        <members>Business_Model_Configuration__c.Channel_List</members>
+        <members>Business_Model_Configuration__c.Channel_Team</members>
+        <members>Business_Model_Configuration__c.Channel_Type</members>
+        <members>Business_Model_Configuration__c.Communication_Entity</members>
+        <members>Business_Model_Configuration__c.Coupon_Format</members>
+        <members>Business_Model_Configuration__c.Coupon_Type</members>
+        <members>Business_Model_Configuration__c.Document_Delivery_Method</members>
+        <members>Business_Model_Configuration__c.EPC_Team</members>
+        <members>Business_Model_Configuration__c.Facility</members>
+        <members>Business_Model_Configuration__c.LOB</members>
+        <members>Business_Model_Configuration__c.Legal_Entity</members>
+        <members>Business_Model_Configuration__c.Notification_Medium</members>
+        <members>Business_Model_Configuration__c.OPP_Module</members>
+        <members>Business_Model_Configuration__c.OU_Cluster</members>
+        <members>Business_Model_Configuration__c.Org_Unit</members>
+        <members>Business_Model_Configuration__c.Payment_Device_Medium</members>
+        <members>Business_Model_Configuration__c.Payment_Method</members>
+        <members>Business_Model_Configuration__c.Payment_Method_Group</members>
+        <members>Business_Model_Configuration__c.Payment_Terms</members>
+        <members>Business_Model_Configuration__c.Region_District_Map</members>
+        <members>Business_Model_Configuration__c.Service_Hour_Label</members>
+        <members>Business_Model_Configuration__c.Stock_Delivery_and_Return_Method</members>
+        <members>Business_Model_Configuration__c.Support_Document_Type</members>
+        <members>Business_Model_Configuration__c.Team_Group</members>
+        <members>Business_Model_Configuration__c.Warehouse</members>
+        <members>Business_Model_Details__c.Business_Purpose</members>
+        <members>Business_Model_Details__c.COM_Fullfillment_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.COM_Shop_Pickup_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.Channel_Warehouse_Mapping</members>
+        <members>Business_Model_Details__c.Chnanel_Facility_Mapping</members>
+        <members>Business_Model_Details__c.Communication_Entity_Mapping</members>
+        <members>Business_Model_Details__c.EPC_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.LOB_Brand_Mapping</members>
+        <members>Business_Model_Details__c.LOB_and_Legacy_LOB_Mapping</members>
+        <members>Business_Model_Details__c.Lob_Bu_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.Payment_Method_Group_Detail</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Business_Model_Details__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c</members>
+        <members>Business_Model_Details__c</members>
+        <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.HKT_MASTER_DATA_Update_Reference_ID</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration__c.HKT_MASTER_DATA Create Reference ID</members>
+        <name>WorkflowRule</name>
     </types>
     <version>52.0</version>
 </Package>
