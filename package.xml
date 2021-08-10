@@ -230,11 +230,6 @@
         <name>ListView</name>
     </types>
     <types>
-        <members>ChangeEvents_Business_Model_Configuration_ChangeEvent</members>
-        <members>ChangeEvents_Business_Model_Details_ChangeEvent</members>
-        <name>PlatformEventChannelMember</name>
-    </types>
-    <types>
         <members>Business_Model_Configuration__c.Address_Format</members>
         <members>Business_Model_Configuration__c.Appointment_Service_Type</members>
         <members>Business_Model_Configuration__c.Brand</members>
