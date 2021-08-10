@@ -455,7 +455,7 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                     <label>Self-served</label>
                 </value>
                 <value>
-                    <fullName>Assisted_on_face</fullName>
+                    <fullName>Assisted-on-face</fullName>
                     <default>false</default>
                     <label>Assisted-on-face</label>
                 </value>
@@ -504,6 +504,18 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Currency_ISO_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Currency ISO Code</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Delivery_Channel_Checkbox__c</fullName>
@@ -910,6 +922,11 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                     <fullName>Cluster</fullName>
                     <default>false</default>
                     <label>Cluster</label>
+                </value>
+                <value>
+                    <fullName>ClusterType</fullName>
+                    <default>false</default>
+                    <label>Cluster Type</label>
                 </value>
                 <value>
                     <fullName>Channel</fullName>
@@ -2073,6 +2090,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -2190,6 +2211,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2290,11 +2315,11 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
-                <fullName>Assisted_non_face</fullName>
+                <fullName>Assisted-on-face</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Assisted_on_face</fullName>
+                <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2411,6 +2436,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2511,6 +2540,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -2608,6 +2641,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             <picklist>OU_Type__c</picklist>
             <values>
                 <fullName>Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2704,6 +2741,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -2804,6 +2845,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>true</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -2896,6 +2941,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -2994,6 +3043,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             <picklist>OU_Type__c</picklist>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3090,6 +3143,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -3190,6 +3247,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>true</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -3282,6 +3343,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -3383,6 +3448,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>true</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -3475,6 +3544,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -3576,6 +3649,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -3668,6 +3745,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -3769,6 +3850,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>true</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -3861,6 +3946,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -3962,6 +4051,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>true</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -4054,6 +4147,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -4155,6 +4252,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -4247,6 +4348,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -4365,6 +4470,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4465,6 +4574,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -4582,6 +4695,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4682,6 +4799,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -4799,6 +4920,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4899,6 +5024,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -4996,6 +5125,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             <picklist>OU_Type__c</picklist>
             <values>
                 <fullName>Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5092,6 +5225,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Self_served</fullName>
                 <default>false</default>
             </values>
@@ -5185,6 +5322,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             <picklist>OU_Type__c</picklist>
             <values>
                 <fullName>Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5281,6 +5422,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -5378,6 +5523,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             <picklist>OU_Type__c</picklist>
             <values>
                 <fullName>Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5474,6 +5623,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -5574,6 +5727,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -5666,6 +5823,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -5784,6 +5945,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5883,6 +6048,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -6000,6 +6169,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6100,6 +6273,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -6200,6 +6377,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>true</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -6292,6 +6473,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -6410,6 +6595,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6510,6 +6699,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -6627,6 +6820,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6726,6 +6923,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -6843,6 +7044,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6942,11 +7147,11 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
-                <fullName>Assisted_non_face</fullName>
+                <fullName>Assisted-on-face</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Assisted_on_face</fullName>
+                <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7063,6 +7268,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7163,6 +7372,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -7280,6 +7493,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7380,6 +7597,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -7492,6 +7713,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -7584,6 +7809,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -7685,6 +7914,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -7777,6 +8010,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
+            <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
@@ -7895,6 +8132,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             </values>
             <values>
                 <fullName>Cluster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7995,6 +8236,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -8115,6 +8360,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
             </values>
@@ -8212,6 +8461,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -8307,6 +8560,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         </picklistValues>
         <picklistValues>
             <picklist>OU_Type__c</picklist>
+            <values>
+                <fullName>ClusterType</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>LOB</fullName>
                 <default>false</default>
@@ -8405,6 +8662,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
         <picklistValues>
             <picklist>Channel_Serving_Method__c</picklist>
             <values>
+                <fullName>Assisted-on-face</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Assisted_non_face</fullName>
                 <default>false</default>
             </values>
@@ -8502,6 +8763,10 @@ Refer detail in this link &lt;https://team.com/abc&gt;</inlineHelpText>
             <picklist>OU_Type__c</picklist>
             <values>
                 <fullName>Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClusterType</fullName>
                 <default>false</default>
             </values>
             <values>

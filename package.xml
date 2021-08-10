@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Business_Model_Details__c.Custom_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
         <members>Business_Model_Configuration__c.Address__c</members>
         <members>Business_Model_Configuration__c.Appt_Type__c</members>
         <members>Business_Model_Configuration__c.Area__c</members>
@@ -21,6 +25,7 @@
         <members>Business_Model_Configuration__c.Channel_Serving_Method__c</members>
         <members>Business_Model_Configuration__c.Channel_Size__c</members>
         <members>Business_Model_Configuration__c.Code__c</members>
+        <members>Business_Model_Configuration__c.Currency_ISO_Code__c</members>
         <members>Business_Model_Configuration__c.Delivery_Channel_Checkbox__c</members>
         <members>Business_Model_Configuration__c.Display_Order__c</members>
         <members>Business_Model_Configuration__c.District_Description__c</members>
@@ -83,6 +88,46 @@
         <members>Business_Model_Configuration__c.Terms_and_Condition_Chi__c</members>
         <members>Business_Model_Configuration__c.Terms_and_Conditions_Eng__c</members>
         <members>Business_Model_Configuration__c.Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.Actual_Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.BU_LOB_Key__c</members>
+        <members>Business_Model_Details__c.BU_LOB_Team_Key__c</members>
+        <members>Business_Model_Details__c.Brand_Code__c</members>
+        <members>Business_Model_Details__c.Brand_Name__c</members>
+        <members>Business_Model_Details__c.Business_Purpose__c</members>
+        <members>Business_Model_Details__c.Business_Unit_Code__c</members>
+        <members>Business_Model_Details__c.Business_Unit__c</members>
+        <members>Business_Model_Details__c.Channel_Code__c</members>
+        <members>Business_Model_Details__c.Channel_Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.Channel__c</members>
+        <members>Business_Model_Details__c.Code__c</members>
+        <members>Business_Model_Details__c.Communication_Entity_Code__c</members>
+        <members>Business_Model_Details__c.Communication_Entity_Name__c</members>
+        <members>Business_Model_Details__c.Display_Order__c</members>
+        <members>Business_Model_Details__c.Facility_Code__c</members>
+        <members>Business_Model_Details__c.Facility__c</members>
+        <members>Business_Model_Details__c.LOB_Code__c</members>
+        <members>Business_Model_Details__c.LOB__c</members>
+        <members>Business_Model_Details__c.Legacy_LOB__c</members>
+        <members>Business_Model_Details__c.Org_Unit_Code__c</members>
+        <members>Business_Model_Details__c.Org_Unit_Name__c</members>
+        <members>Business_Model_Details__c.Org_Unit__c</members>
+        <members>Business_Model_Details__c.Parent_Org_Unit_Code__c</members>
+        <members>Business_Model_Details__c.Parent_Org_Unit_Name__c</members>
+        <members>Business_Model_Details__c.Parent_Org_Unit__c</members>
+        <members>Business_Model_Details__c.Payment_Method_Code__c</members>
+        <members>Business_Model_Details__c.Payment_Method_Group_Code__c</members>
+        <members>Business_Model_Details__c.Payment_Method_Group__c</members>
+        <members>Business_Model_Details__c.Payment_Method__c</members>
+        <members>Business_Model_Details__c.Pickup_Code__c</members>
+        <members>Business_Model_Details__c.Pickup_Name__c</members>
+        <members>Business_Model_Details__c.Public_Group__c</members>
+        <members>Business_Model_Details__c.RecordType_PublicGroup_Key__c</members>
+        <members>Business_Model_Details__c.Status__c</members>
+        <members>Business_Model_Details__c.Team_Code__c</members>
+        <members>Business_Model_Details__c.Team__c</members>
+        <members>Business_Model_Details__c.Timeout_Threshold__c</members>
+        <members>Business_Model_Details__c.Warehouse_Code__c</members>
+        <members>Business_Model_Details__c.Warehouse__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -91,11 +136,17 @@
     </types>
     <types>
         <members>Business_Model_Configuration__c</members>
+        <members>Business_Model_Details__c</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>Business_Model_Configuration__c</members>
+        <members>Business_Model_Details__c</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Business_Model_Configuration_Record_Page</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>Business_Model_Configuration__c-Address Area District</members>
@@ -109,6 +160,18 @@
         <members>Business_Model_Configuration__c-Org Unit Layout</members>
         <members>Business_Model_Configuration__c-Payment Method Layout</members>
         <members>Business_Model_Configuration__c-Service Hour Label Layout</members>
+        <members>Business_Model_Details__c-Business Model Details Layout</members>
+        <members>Business_Model_Details__c-Business Purpose Layout</members>
+        <members>Business_Model_Details__c-COM Fullfillment Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-COM Shop Pickup Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-Channel Facility Mapping Layout</members>
+        <members>Business_Model_Details__c-Channel Warehouse Mapping Layout</members>
+        <members>Business_Model_Details__c-Communication Entity Mapping Layout</members>
+        <members>Business_Model_Details__c-EPC Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-LOB BU Public Group Mapping Layout</members>
+        <members>Business_Model_Details__c-LOB Brand Mapping Layout</members>
+        <members>Business_Model_Details__c-LOB and Legacy LOB Mapping Layout</members>
+        <members>Business_Model_Details__c-Payment Method Group Detail Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -146,7 +209,30 @@
         <members>Business_Model_Configuration__c.Sales_Channel</members>
         <members>Business_Model_Configuration__c.Stock_Delivery_and_Return_Method</members>
         <members>Business_Model_Configuration__c.Support_Document_Type</members>
+        <members>Business_Model_Details__c.All_Comm_Entity_Mapping</members>
+        <members>Business_Model_Details__c.All_Facility_Mapping</members>
+        <members>Business_Model_Details__c.All_LOB_BU_PG_Mapping</members>
+        <members>Business_Model_Details__c.All_Warehouse_Mapping</members>
+        <members>Business_Model_Details__c.COM_Fulfillment_PG_Mapping</members>
+        <members>Business_Model_Details__c.COM_Shop_Pickup_PG_Mapping</members>
+        <members>Business_Model_Details__c.EPC_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.Eligibility_Consumer_Group</members>
+        <members>Business_Model_Details__c.Eligibility_Consumer_Mobile</members>
+        <members>Business_Model_Details__c.Eligibility_Hierarchy</members>
+        <members>Business_Model_Details__c.Functional_Commercial_Mobile</members>
+        <members>Business_Model_Details__c.Functional_Consumer_Group</members>
+        <members>Business_Model_Details__c.Functional_Consumer_Mobile</members>
+        <members>Business_Model_Details__c.Functional_Hierarchy</members>
+        <members>Business_Model_Details__c.Functional_NOWTV</members>
+        <members>Business_Model_Details__c.LOB_Brand_Mapping</members>
+        <members>Business_Model_Details__c.LOB_and_Legacy_LOB_Mapping</members>
+        <members>Business_Model_Details__c.Payment_Method_Group_Detail</members>
         <name>ListView</name>
+    </types>
+    <types>
+        <members>ChangeEvents_Business_Model_Configuration_ChangeEvent</members>
+        <members>ChangeEvents_Business_Model_Details_ChangeEvent</members>
+        <name>PlatformEventChannelMember</name>
     </types>
     <types>
         <members>Business_Model_Configuration__c.Address_Format</members>
@@ -181,10 +267,26 @@
         <members>Business_Model_Configuration__c.Support_Document_Type</members>
         <members>Business_Model_Configuration__c.Team_Group</members>
         <members>Business_Model_Configuration__c.Warehouse</members>
+        <members>Business_Model_Details__c.Business_Purpose</members>
+        <members>Business_Model_Details__c.COM_Fullfillment_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.COM_Shop_Pickup_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.Channel_Warehouse_Mapping</members>
+        <members>Business_Model_Details__c.Chnanel_Facility_Mapping</members>
+        <members>Business_Model_Details__c.Communication_Entity_Mapping</members>
+        <members>Business_Model_Details__c.EPC_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.LOB_Brand_Mapping</members>
+        <members>Business_Model_Details__c.LOB_and_Legacy_LOB_Mapping</members>
+        <members>Business_Model_Details__c.Lob_Bu_Public_Group_Mapping</members>
+        <members>Business_Model_Details__c.Payment_Method_Group_Detail</members>
         <name>RecordType</name>
     </types>
     <types>
+        <members>Business_Model_Details__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
         <members>Business_Model_Configuration__c</members>
+        <members>Business_Model_Details__c</members>
         <name>TopicsForObjects</name>
     </types>
     <types>
